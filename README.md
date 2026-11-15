@@ -8,6 +8,6 @@ Try locally: `claude --plugin-dir plugins/animejs`
 ## Install
 
 ```
-/plugin marketplace add <owner>/<repo>
+/plugin marketplace add zedalleys/animejs-plugin
 /plugin install animejs@animejs-plugin
 ```
