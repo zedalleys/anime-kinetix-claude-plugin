@@ -114,7 +114,8 @@ The first converts to `animate('.dot', { x: 250, ease: 'inOutQuad', alternate: t
 
 ## Compatibility
 
-- **Web only.** Anime.js animates the DOM, SVG and plain objects; Matter.js and PixiJS need a canvas or DOM; Tone.js needs the Web Audio API. In a React Native project (for example Expo), the commands say so and propose a web or DOM-component approach instead of writing code that cannot run.
+- **Built for the web, with hybrid-mobile paths.** Everything runs in a browser, and therefore in WebViews, Capacitor/Cordova and Expo DOM components.
+- **Outside a browser (for example React Native):** the Matter.js engine and Anime.js animation of plain JS objects are plain JavaScript and run headless (confirmed in Node, not on a device); `Render`, `Mouse`, DOM transforms and CSS animation are web-only. PixiJS needs WebGL and Tone.js needs the Web Audio API, so use a WebView or DOM component for those, or a native alternative. The commands explain this instead of writing code that cannot run.
 - Tested against Anime.js 4.5.0, Matter.js 0.20.0, PixiJS 8.23.0, Tone.js 15.1.22. If your installed version differs, the skills tell Claude to check the installed types first.
 - The skills were written from each library's source and docs. The advice on tunnelling, teardown and ownership comes from experience, not from the libraries' docs, so treat it as guidance.
 

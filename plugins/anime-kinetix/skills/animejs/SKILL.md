@@ -32,7 +32,7 @@ animate('.square', {
 });
 ```
 
-Targets: CSS selector, DOM element(s), NodeList, or a JS object (`animate(obj, { value: 100, onUpdate })`).
+Targets: CSS selector, DOM element(s), NodeList, or a JS object (`animate(obj, { value: 100, onUpdate })`). Object targets work without a DOM, so they can drive values in non-DOM environments (for example into a native renderer); DOM/CSS features need a browser.
 
 ## Timelines
 

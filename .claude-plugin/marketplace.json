@@ -1,12 +1,32 @@
 {
   "name": "anime-kinetix",
-  "owner": { "name": "zedalleys" },
+  "owner": {
+    "name": "zedalleys",
+    "url": "https://github.com/zedalleys"
+  },
   "description": "Claude Code plugins for writing and migrating Anime.js v4 animations.",
   "plugins": [
     {
       "name": "anime-kinetix",
       "source": "./plugins/anime-kinetix",
-      "description": "Anime.js v4 animation, Matter.js 2D physics, PixiJS v8 rendering, Tone.js sound, and combining them."
+      "description": "Kinetic toolkit for web and hybrid mobile apps: Anime.js v4, Matter.js, PixiJS v8 and Tone.js.",
+      "displayName": "Anime Kinetix",
+      "author": {
+        "name": "zedalleys",
+        "url": "https://github.com/zedalleys"
+      },
+      "homepage": "https://github.com/zedalleys/anime-kinetix-claude-plugin",
+      "repository": "https://github.com/zedalleys/anime-kinetix-claude-plugin",
+      "license": "MIT",
+      "keywords": [
+        "animation",
+        "animejs",
+        "matter-js",
+        "pixijs",
+        "tone-js",
+        "physics",
+        "audio"
+      ]
     }
   ]
 }

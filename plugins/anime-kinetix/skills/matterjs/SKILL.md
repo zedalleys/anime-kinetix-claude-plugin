@@ -13,7 +13,7 @@ description: Use when adding 2D rigid-body physics to a web page or Node script 
 2. `Matter.World` is deprecated. Use `Composite.add(engine.world, bodies)`.
 3. `Engine.run` is deprecated. Create a runner: `const runner = Runner.create(); Runner.run(runner, engine);`.
 4. Units are pixels, positions are body centers (not top-left), and `y` grows downward. Default gravity is `engine.gravity.y = 1`.
-5. Bodies are not DOM nodes. Matter only simulates; you render with `Matter.Render`, a canvas, or by writing body positions to DOM elements each frame.
+5. The engine itself is plain JavaScript and runs headless (Node, React Native, workers): call `Engine.update(engine, 1000 / 60)` yourself. `Render`, `Mouse` and `MouseConstraint` need a browser DOM. Bodies are not DOM nodes. Matter only simulates; you render with `Matter.Render`, a canvas, or by writing body positions to DOM elements each frame.
 6. Static bodies (`isStatic: true`) never move. Make walls and floors static, and give them real thickness so fast bodies do not tunnel through.
 7. Never create or remove bodies inside a collision event handler without care; collect them and apply after the update. Remove event listeners (`Events.off`) and the runner (`Runner.stop`) on teardown, and `Engine.clear(engine)` / `Composite.clear(engine.world)` to free the world.
 8. In frameworks, run the engine in a mount effect and stop it on unmount. Dev-mode bundler settings can slow it badly (see the project README on performance).

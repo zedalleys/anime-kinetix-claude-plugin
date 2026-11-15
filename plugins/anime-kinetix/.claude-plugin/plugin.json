@@ -1,9 +1,10 @@
 {
   "name": "anime-kinetix",
-  "version": "0.5.0",
-  "description": "Kinetic web toolkit: Anime.js v4 animation, Matter.js 2D physics, PixiJS v8 rendering, Tone.js sound, and how to combine them.",
+  "version": "0.5.1",
+  "description": "Kinetic toolkit for web and hybrid mobile apps: Anime.js v4 animation, Matter.js 2D physics, PixiJS v8 rendering, Tone.js sound, and how to combine them.",
   "author": {
-    "name": "Integration check"
+    "name": "zedalleys",
+    "url": "https://github.com/zedalleys"
   },
   "homepage": "https://github.com/zedalleys/anime-kinetix-claude-plugin",
   "license": "MIT",
@@ -19,5 +20,6 @@
     "javascript",
     "motion"
   ],
-  "icon": "assets/icon.png"
+  "icon": "./assets/icon.png",
+  "repository": "https://github.com/zedalleys/anime-kinetix-claude-plugin"
 }
