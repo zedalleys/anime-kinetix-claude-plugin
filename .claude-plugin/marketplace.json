@@ -1,6 +1,7 @@
 {
   "name": "anime-kinetix",
   "owner": { "name": "zedalleys" },
+  "description": "Claude Code plugins for writing and migrating Anime.js v4 animations.",
   "plugins": [
     {
       "name": "anime-kinetix",
