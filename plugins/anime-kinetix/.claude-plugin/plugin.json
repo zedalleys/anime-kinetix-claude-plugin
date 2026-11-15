@@ -1,9 +1,9 @@
 {
   "name": "anime-kinetix",
-  "version": "0.1.1",
-  "description": "Write correct Anime.js v4 animations: ESM imports, animate/timeline/stagger/svg/text/draggable APIs, and v3-to-v4 migration.",
+  "version": "0.2.0",
+  "description": "Kinetic web toolkit: Anime.js v4 animation, Matter.js 2D physics, and how to combine them.",
   "author": { "name": "Integration check" },
-  "homepage": "https://github.com/juliangarnier/anime",
+  "homepage": "https://github.com/zedalleys/anime-kinetix-claude-plugin",
   "license": "MIT",
-  "keywords": ["animation", "animejs", "anime.js", "javascript", "motion"]
+  "keywords": ["animation", "animejs", "anime.js", "matter-js", "physics", "javascript", "motion"]
 }

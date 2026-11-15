@@ -6,7 +6,7 @@
     {
       "name": "anime-kinetix",
       "source": "./plugins/anime-kinetix",
-      "description": "Write correct Anime.js v4 animations and migrate from v3."
+      "description": "Anime.js v4 animation, Matter.js 2D physics, and combining them."
     }
   ]
 }
