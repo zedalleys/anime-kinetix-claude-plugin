@@ -1,4 +1,6 @@
-# anime-kinetix-claude-plugin
+<p align="center"><img src="assets/logo.svg" alt="anime-kinetix logo" width="128"></p>
+
+<h1 align="center">anime-kinetix-claude-plugin</h1>
 
 A Claude Code plugin for kinetic web work: **Anime.js v4** animation, **Matter.js** 2D physics, **PixiJS v8** rendering and **Tone.js** sound, plus the rules for combining them. It keeps Claude on the current API of each library instead of drifting to outdated examples.
 
