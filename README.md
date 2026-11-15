@@ -150,3 +150,7 @@ Adding a library: create `skills/<name>/SKILL.md` with a trigger-focused `descri
 ## Credits
 
 Based on [juliangarnier/anime](https://github.com/juliangarnier/anime), [liabru/matter-js](https://github.com/liabru/matter-js), [pixijs/pixijs](https://github.com/pixijs/pixijs) and [Tonejs/Tone.js](https://github.com/Tonejs/Tone.js), all MIT licensed. This plugin is not affiliated with those projects.
+
+## License
+
+MIT, see [LICENSE](LICENSE). The libraries this plugin documents keep their own MIT licenses (see Credits).
