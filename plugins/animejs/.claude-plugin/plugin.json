@@ -1,0 +1,9 @@
+{
+  "name": "animejs",
+  "version": "0.1.0",
+  "description": "Write correct Anime.js v4 animations: ESM imports, animate/timeline/stagger/svg/text/draggable APIs, and v3-to-v4 migration.",
+  "author": { "name": "Integration check" },
+  "homepage": "https://github.com/juliangarnier/anime",
+  "license": "MIT",
+  "keywords": ["animation", "animejs", "anime.js", "javascript", "motion"]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "animejs-plugin",
+  "owner": { "name": "zedalleys" },
+  "plugins": [
+    {
+      "name": "animejs",
+      "source": "./plugins/animejs",
+      "description": "Write correct Anime.js v4 animations and migrate from v3."
+    }
+  ]
+}
