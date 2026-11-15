@@ -6,7 +6,7 @@
     {
       "name": "anime-kinetix",
       "source": "./plugins/anime-kinetix",
-      "description": "Anime.js v4 animation, Matter.js 2D physics, PixiJS v8 rendering, and combining them."
+      "description": "Anime.js v4 animation, Matter.js 2D physics, PixiJS v8 rendering, Tone.js sound, and combining them."
     }
   ]
 }
