@@ -8,6 +8,6 @@ Try locally: `claude --plugin-dir plugins/animejs`
 ## Install
 
 ```
-/plugin marketplace add zedalleys/animejs-plugin
+/plugin marketplace add zedalleys/anime-kinetix-claude-plugin
 /plugin install animejs@animejs-plugin
 ```
