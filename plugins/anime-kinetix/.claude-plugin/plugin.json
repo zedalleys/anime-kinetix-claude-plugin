@@ -1,5 +1,5 @@
 {
-  "name": "animejs",
+  "name": "anime-kinetix",
   "version": "0.1.0",
   "description": "Write correct Anime.js v4 animations: ESM imports, animate/timeline/stagger/svg/text/draggable APIs, and v3-to-v4 migration.",
   "author": { "name": "Integration check" },

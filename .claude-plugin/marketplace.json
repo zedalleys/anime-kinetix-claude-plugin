@@ -1,10 +1,10 @@
 {
-  "name": "animejs-plugin",
+  "name": "anime-kinetix",
   "owner": { "name": "zedalleys" },
   "plugins": [
     {
-      "name": "animejs",
-      "source": "./plugins/animejs",
+      "name": "anime-kinetix",
+      "source": "./plugins/anime-kinetix",
       "description": "Write correct Anime.js v4 animations and migrate from v3."
     }
   ]
