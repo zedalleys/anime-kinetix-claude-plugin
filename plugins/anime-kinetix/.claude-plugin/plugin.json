@@ -1,6 +1,6 @@
 {
   "name": "anime-kinetix",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "description": "Kinetic toolkit for web and hybrid mobile apps: Anime.js v4 animation, Matter.js 2D physics, PixiJS v8 rendering, Tone.js sound, and how to combine them.",
   "author": {
     "name": "zedalleys",

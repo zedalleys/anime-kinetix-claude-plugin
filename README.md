@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/logo.svg" alt="anime-kinetix logo" width="128"></p>
+<p align="center"><img src="assets/logo.png" alt="anime-kinetix logo" width="128"></p>
 
 <h1 align="center">anime-kinetix-claude-plugin</h1>
 
